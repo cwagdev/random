@@ -11,3 +11,5 @@
 	email = cwagner118@gmail.com
 [color]
 	ui = true
+[push]
+	default = simple
