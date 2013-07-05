@@ -1,0 +1,13 @@
+[alias]
+	st = status
+	ci = commit
+	purr = pull
+	glconf = config --global
+	df = diff
+	l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
+[user]
+	name = Chris Wagner
+	email = cwagner118@gmail.com
+[color]
+	ui = true
